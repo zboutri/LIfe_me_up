@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="8dp"
+        android:src="@drawable/user_60"
+        app:civ_border_color="#3C3B3B"
+        app:civ_border_width="2dp"
+        >
+
+    </de.hdodenhof.circleimageview.CircleImageView>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:layout_toEndOf="@id/profile_image"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/name"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            >
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/hour"
+            android:textStyle="bold"
+            android:textColor="#424040"
+            android:text="@string/_2h"
+            android:textSize="14sp"
+            >
+
+        </TextView>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_below="@id/profile_image"
+        android:id="@+id/posted_image"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/prof">
+
+    </ImageView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/posted_image"
+        android:id="@+id/like_bar">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:id="@+id/like"
+            android:checked="false"
+            android:button="@drawable/heart_check"
+            android:scaleX="1.2"
+            android:scaleY="1.2"
+
+            android:contentDescription="@string/like">
+
+        </CheckBox>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/comment"
+            android:background="@drawable/comment"
+            android:scaleX="1.2"
+            android:scaleY="1.2"
+            android:contentDescription="@string/comment">
+
+        </ImageButton>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/likes_counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/like_bar"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="4dp"
+        android:paddingEnd="8dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        tools:ignore="RtlSymmetry">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/likes_counter"
+        android:id="@+id/desc"
+        android:layout_marginStart="10dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:paddingEnd="8dp"
+        tools:ignore="RtlSymmetry">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/desc"
+        android:id="@+id/commentText"
+        android:padding="8dp"
+        android:text="View all comments"
+        android:visibility="gone">
+
+    </TextView>
+
+</RelativeLayout>

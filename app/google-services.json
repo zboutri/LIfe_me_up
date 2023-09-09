@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "70944257418",
+    "project_id": "lifemeup-c01db",
+    "storage_bucket": "lifemeup-c01db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:70944257418:android:bb906d6a56c0d5e5cdc473",
+        "android_client_info": {
+          "package_name": "com.example.lifemeup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "70944257418-84q26i7hnmjbq3lm6jdehcu9u74m7eg4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lifemeup",
+            "certificate_hash": "6943d6b478d6abd090fa0dd8b1b15e91b73f27d2"
+          }
+        },
+        {
+          "client_id": "70944257418-b95ijcaqpvcapr1g680u0md4n9gluj42.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEAdQeDS_aK4Q8D3tKgXxpJ0-AO5NoOGQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "70944257418-5e5d5vg6u93n9mj99vep7tinnakca9j3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

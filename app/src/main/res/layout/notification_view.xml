@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/notification"
+            android:text="Asks to follow you"
+            android:textColor="@color/pink"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:padding="3dp"
+            >
+
+        </TextView>
+        <ImageView
+            android:id="@+id/image"
+            android:layout_marginStart="40dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/ic_outline_person_outline_24"
+            android:visibility="gone"
+            >
+
+        </ImageView>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/time"
+        android:text="10 min ago"
+        android:padding="3dp"
+        >
+
+    </TextView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/gray">
+
+    </View>
+
+
+</LinearLayout>

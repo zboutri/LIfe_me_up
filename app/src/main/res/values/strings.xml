@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">LifemeUp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="life_me_up">Life me Up</string>
+    <string name="name">Name</string>
+    <string name="username">Username</string>
+    <string name="email_address">Email address</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="create_account">Create account</string>
+    <string name="log_in">Log in?</string>
+    <string name="sign_up">Sign up?</string>
+    <string name="log_in_BTN">LOG IN</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="google">Google</string>
+    <string name="notify">notify</string>
+    <string name="home">home</string>
+    <string name="prof">profil</string>
+    <string name="search">search</string>
+    <string name="_2h">2h</string>
+    <string name="_100_congrats">100 Congrats!</string>
+    <string name="send">send</string>
+    <string name="comment">comment</string>
+    <string name="like">like</string>
+    <string name="insert_your_goal">Insert your Goal</string>
+    <string name="_250">250</string>
+    <string name="friends">Friends</string>
+    <string name="add">ADD</string>
+    <string name="posts">posts</string>
+    <string name="Forgot_Password">Forgot Password</string>
+    <string name="recover">recover</string>
+    <string name="return_to_log_in">Return to Log in</string>
+    <string name="profile">Profile</string>
+    <string name="add_blogs">Add Blogs</string>
+    <string name="Home">Home</string>
+    <string name="description">Description</string>
+    <string name="cheer_your_friend">Cheer your friend</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_fragment_replace">fragment_replace</string>
+    <string name="go_back">go Back</string>
+</resources>
